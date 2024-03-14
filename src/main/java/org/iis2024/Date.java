@@ -59,10 +59,10 @@ public class Date {
    * @param year The year (should ideally be within the valid range of 1900 to 2050 for validation
    *     to pass).
    */
-  public Date(int dia, int month, int year) {
+  public Date(int dia, int mes, int anyo) {
     this.day = dia;
-    this.month = month;
-    this.year = year;
+    this.month = mes;
+    this.year = anyo;
   }
 
   /**
